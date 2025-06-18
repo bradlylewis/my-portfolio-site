@@ -24,7 +24,7 @@ export default function Navbar() {
           aria-label="Toggle menu"
         >
           <svg
-            className="w-6 h-6"
+            className="w-6 h-6 hover:cursor-pointer"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -41,7 +41,7 @@ export default function Navbar() {
       {/* Mobile Dropdown (only visible on small screens) */}
       {menuOpen && (
         <ul className="md:hidden px-4 pb-4 space-y-2 bg-white shadow">
-          <li><a href="#hero" onClick={() => setMenuOpen(false)}>Home</a></li>
+          <li><a href="#top" onClick={() => setMenuOpen(false)}>Home</a></li>
           <li><a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a></li>
           <li><a href="#experience" onClick={() => setMenuOpen(false)}>Experience</a></li>
           <li><a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a></li>
