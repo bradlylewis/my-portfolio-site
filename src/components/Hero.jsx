@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section id="hero" className="h-[calc(100vh-4rem)] flex items-center">
+    <section id="hero" className="h-[calc(100vh-4rem)] flex items-center flex-column">
       <div className="container mx-auto max-w-6xl px-10">
         <h1 className="text-3xl font-bold">Hi, I'm Bradly</h1>
         <p className="text-lg font-bold">Frontend-focused Full Stack Developer</p>
