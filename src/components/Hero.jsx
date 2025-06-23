@@ -1,10 +1,15 @@
 export default function Hero() {
   return (
-    <section id="hero" className="h-[calc(100vh-4rem)] bg-blue-500 flex items-center" >
-      <div className="container mx-auto max-w-7xl px-4 text-center">
-        <h1 className="text-5xl font-bold">Hi, I'm Bradly</h1>
-        <p className="mt-4 text-xl">Full stack dev. Code. Design. Impact.</p>
+    <section id="hero" className="h-[calc(100vh-4rem)] flex items-center">
+      <div className="container mx-auto max-w-6xl px-10">
+        <h1 className="text-3xl font-bold">Hi, I'm Bradly</h1>
+        <p className="text-lg font-bold">Frontend-focused Full Stack Developer</p>
+        <p className="text-4xl">I build experiences your users — and your stakeholders — can be proud of.</p>
+        <div className="mt-5">
+          <button className="bg-teal-500 text-white px-6 py-2 rounded hover:bg-teal-600 mr-2 transition">View My Projects</button>
+          <button className="border border-teal-500 px-6 py-2 rounded text-teal-500 hover:bg-gray-50 transition">Contact Me</button>
+        </div>
       </div>
     </section>
-  )
+  );
 }

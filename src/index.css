@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+@layer base {
+  button,
+  a[href] {
+    @apply cursor-pointer;
+  }
+}
+
 html {
   scroll-behavior: smooth !important;
 }

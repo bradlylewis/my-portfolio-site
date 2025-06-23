@@ -5,13 +5,14 @@ export default function Navbar() {
 
   return (
     <nav className="sticky top-0 z-50 h-16 bg-white border-b border-gray-200 shadow">
-      <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div className="mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
-        <div className="text-xl font-bold">Bradly.dev</div>
+        <div className="text-xl ">Bradly Lewis</div>
 
         {/* Desktop Menu (visible from md and up) */}
         <ul className="hidden md:flex space-x-6">
           <li><a href="#top" className="hover:underline">Home</a></li>
+          <li><a href="#skills" className="hover:underline">Skills</a></li>
           <li><a href="#projects" className="hover:underline">Projects</a></li>
           <li><a href="#experience" className="hover:underline">Experience</a></li>
           <li><a href="#contact" className="hover:underline">Contact</a></li>
@@ -42,6 +43,7 @@ export default function Navbar() {
       {menuOpen && (
         <ul className="md:hidden px-4 pb-4 space-y-2 bg-white shadow">
           <li><a href="#top" onClick={() => setMenuOpen(false)}>Home</a></li>
+          <li><a href="#skills" onClick={() => setMenuOpen(false)}>Skills</a></li>
           <li><a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a></li>
           <li><a href="#experience" onClick={() => setMenuOpen(false)}>Experience</a></li>
           <li><a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a></li>
