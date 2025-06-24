@@ -6,8 +6,8 @@ export default function Hero() {
         <p className="text-lg font-bold">Frontend-focused Full Stack Developer</p>
         <p className="text-4xl">I build experiences your users — and your stakeholders — can be proud of.</p>
         <div className="mt-5">
-          <button className="bg-teal-500 text-white px-6 py-2 rounded hover:bg-teal-600 mr-2 transition">View My Projects</button>
-          <button className="border border-teal-500 px-6 py-2 rounded text-teal-500 hover:bg-gray-50 transition">Contact Me</button>
+          <a href="#projects" className="bg-teal-500 text-white px-5 py-2 rounded hover:bg-teal-600 mr-2 transition">View My Projects</a>
+          <a href="#contact" className="border border-teal-500 px-5 py-2 rounded text-teal-500 hover:bg-gray-50 transition">Contact Me</a>
         </div>
       </div>
     </section>
