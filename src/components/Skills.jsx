@@ -24,29 +24,29 @@ const icons = ["devicon-html5-plain", "devicon-css3-plain", "devicon-javascript-
 export default function Skills() {
   return (
     <>
-    <section id="skills" className="min-h-[calc(100vh-6rem)] bg-[rgb(250,250,250)]">
-      <div className="container mx-auto px-4 pt-24">
-        <h1 className="text-2xl font-semi-bold mb-4">My Skills</h1>
-        <p className="mb-14">I specialize in Frontend development, but I'm also capable in Backend and DevOps.</p>
+    <section id="skills" className="min-h-[calc(100vh-6rem)] md:min-h-[calc(100vh-16rem)] lg:flex lg:flex-column lg:flex-items-center lg:min-h-[calc(100vh-8rem)] bg-[rgb(250,250,250)]">
+      <div className="container mx-auto lg:max-w-6xl px-4 md:px-12 pt-24 md:pt-30">
+        <h1 className="text-2xl md:text-4xl font-semi-bold mb-4 md:mb-6 lg:mb-8">My Skills</h1>
+        <p className="md:text-xl mb-14 md:mb-20 lg:mb-25">I specialize in Frontend development, but I'm also capable in Backend and DevOps.</p>
         <div>
-          <div className="flex flex-wrap gap-2 justify-center md:justify-start">
+          <div className="flex flex-wrap gap-2 md:gap-4 justify-center md:justify-start md:pb-30">
             {skills.frontend.map((skill) => {
-              return <span className="bg-blue-200 text-blue-500 px-4 py-2 rounded-md lg:text-lg font-semibold">{skill}</span>;
+              return <span className="bg-blue-200 text-blue-500 px-4 md:px-6 py-2 md:py-4 md:text-lg lg:text-xl rounded-md font-semibold">{skill}</span>;
             })}
             {skills.backend.map((skill) => (
-              <span className="bg-purple-200 text-purple-500 px-4 py-2 rounded-md lg:text-lg font-semibold">{skill}</span>
+              <span className="bg-purple-200 text-purple-500 px-4 md:px-6 py-2 md:py-4 md:text-lg lg:text-xl rounded-md font-semibold">{skill}</span>
             ))}
             {skills.backend.map((skill) => (
-              <span className="bg-gray-200 text-gray-500 px-4 py-2 rounded-md lg:text-lg font-semibold">{skill}</span>
+              <span className="bg-gray-200 text-gray-500 px-4 md:px-6 py-2 md:py-4 md:text-lg lg:text-xl rounded-md font-semibold">{skill}</span>
             ))}
           </div>
         </div>
       </div>
     </section>
-      <div className="bg-[rgba(240,240,240,1)] p-6">
-        <ul className="grid grid-cols-3 gap-6 ">
+      <div className="bg-[rgba(240,240,240,1)] p-6 lg:py-16">
+        <ul className="grid grid-cols-3 md:grid-cols-9 gap-6 lg:flex lg:justify-evenly">
           {icons.map(icon => (
-            <li className=" bg-white text-center text-4xl shadow-lg rounded-md p-3">
+            <li className="bg-white text-center text-4xl md:text-5xl lg:text-6xl shadow-lg rounded-md p-3 lg:p-7">
               <i className={`${icon} text-[#999]`}></i>
             </li>
           ))}
