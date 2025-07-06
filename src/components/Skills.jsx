@@ -25,7 +25,7 @@ export default function Skills() {
   return (
     <>
     <section id="skills" className="min-h-[calc(100vh-6rem)] md:min-h-[calc(100vh-16rem)] lg:flex lg:flex-column lg:flex-items-center lg:min-h-[calc(100vh-8rem)] bg-retro-offwhite">
-      <div className="container mx-auto lg:max-w-6xl px-8 md:px-12 pt-24 md:pt-30">
+      <div className="container mx-auto lg:max-w-6xl px-8 md:px-12 py-24 md:pt-30">
         <h1 className="text-2xl md:text-4xl font-semi-bold mb-4 md:mb-6 lg:mb-8">My Skills</h1>
         <p className="md:text-xl mb-14 md:mb-20 lg:mb-25">I specialize in Frontend development, but I'm also capable in Backend and DevOps.</p>
         <div>
