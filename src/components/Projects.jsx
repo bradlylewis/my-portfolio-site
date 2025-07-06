@@ -5,7 +5,7 @@ import tripPlannerTile from '../assets/images/trip_planner_tile.png';
 
 export default function Projects() {
   return (
-    <section id="projects" className="min-h-screen pt-[5rem] flex flex-col">
+    <section id="projects" className="min-h-screen bg-retro-offwhite pt-[5rem] flex flex-col">
       <div className="container mx-auto flex-1 lg:max-w-6xl px-8 md:px-12 pt-4">
         <div>
           <h2 className="text-3xl font-semi-bold mb-4">Featured Projects</h2>
@@ -42,7 +42,7 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      <div className="container mx-auto lg:max-w-6xl px-8 md:px-12 pt-10 pb-20">You can find a full list of the projects I've worked on here: <a href="https://www.github.com/bradlylewis" className="text-blue-500 underline">Github</a></div>
+      <div className="container mx-auto lg:max-w-6xl px-8 md:px-12 pt-10 pb-20">You can find a full list of the projects I've worked on here: <a href="https://www.github.com/bradlylewis" className="text-retro-blue underline">Github</a></div>
     </section>
   );
 }

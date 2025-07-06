@@ -7,6 +7,36 @@
   }
 }
 
+@theme {
+  --color-retro-coral: #ff6f61;
+  --color-retro-coral-light: #ffb3a1;
+  --color-retro-coral-dark: #c7432b;
+
+  --color-retro-yellow: #ffcc00;
+  --color-retro-yellow-light: #fff066;
+  --color-retro-yellow-dark: #b89c00;
+
+  --color-retro-teal: #2ec4b6;
+  --color-retro-teal-light: #7ff6e9;
+  --color-retro-teal-dark: #159488;
+
+  --color-retro-blue: #3a86ff;
+  --color-retro-blue-light: #8ecaff;
+  --color-retro-blue-dark: #0051a3;
+
+  --color-retro-offwhite: #f7fff7;
+  --color-retro-offwhite-light: #ffffff;
+  --color-retro-offwhite-dark: #e2eae2;
+
+  --color-retro-navy: #22223b;
+  --color-retro-navy-light: #4a4a6a;
+  --color-retro-navy-dark: #11111d;
+
+  --color-retro-purple: #a259f7;
+  --color-retro-purple-light: #d1a8fc;
+  --color-retro-purple-dark: #6d1fa3;
+}
+
 html {
   scroll-behavior: smooth !important;
 }

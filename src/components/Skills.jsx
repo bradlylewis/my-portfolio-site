@@ -24,20 +24,20 @@ const icons = ["devicon-html5-plain", "devicon-css3-plain", "devicon-javascript-
 export default function Skills() {
   return (
     <>
-    <section id="skills" className="min-h-[calc(100vh-6rem)] md:min-h-[calc(100vh-16rem)] lg:flex lg:flex-column lg:flex-items-center lg:min-h-[calc(100vh-8rem)] bg-[rgb(250,250,250)]">
+    <section id="skills" className="min-h-[calc(100vh-6rem)] md:min-h-[calc(100vh-16rem)] lg:flex lg:flex-column lg:flex-items-center lg:min-h-[calc(100vh-8rem)] bg-retro-offwhite">
       <div className="container mx-auto lg:max-w-6xl px-8 md:px-12 pt-24 md:pt-30">
         <h1 className="text-2xl md:text-4xl font-semi-bold mb-4 md:mb-6 lg:mb-8">My Skills</h1>
         <p className="md:text-xl mb-14 md:mb-20 lg:mb-25">I specialize in Frontend development, but I'm also capable in Backend and DevOps.</p>
         <div>
           <div className="flex flex-wrap gap-2 md:gap-4 justify-center md:justify-start md:pb-30">
             {skills.frontend.map((skill) => {
-              return <span className="bg-blue-200 text-blue-500 px-4 md:px-6 py-2 md:py-4 md:text-lg lg:text-xl rounded-md font-semibold">{skill}</span>;
+              return <span className="bg-retro-blue-light text-retro-blue px-4 md:px-6 py-2 md:py-4 md:text-lg lg:text-xl rounded-md font-semibold">{skill}</span>;
             })}
             {skills.backend.map((skill) => (
-              <span className="bg-purple-200 text-purple-500 px-4 md:px-6 py-2 md:py-4 md:text-lg lg:text-xl rounded-md font-semibold">{skill}</span>
+              <span className="bg-retro-teal-light text-retro-teal px-4 md:px-6 py-2 md:py-4 md:text-lg lg:text-xl rounded-md font-semibold">{skill}</span>
             ))}
             {skills.backend.map((skill) => (
-              <span className="bg-gray-200 text-gray-500 px-4 md:px-6 py-2 md:py-4 md:text-lg lg:text-xl rounded-md font-semibold">{skill}</span>
+              <span className="bg-retro-purple-light text-retro-purple px-4 md:px-6 py-2 md:py-4 md:text-lg lg:text-xl rounded-md font-semibold">{skill}</span>
             ))}
           </div>
         </div>
