@@ -24,20 +24,20 @@ const icons = ["devicon-html5-plain", "devicon-css3-plain", "devicon-javascript-
 export default function Skills() {
   return (
     <>
-    <section id="skills" className="min-h-[calc(100vh-6rem)] md:min-h-[calc(100vh-16rem)] lg:flex lg:flex-column lg:flex-items-center lg:min-h-[calc(100vh-8rem)] bg-retro-offwhite">
+    <section id="skills" className="min-h-[calc(100vh-6rem)] md:min-h-[calc(100vh-16rem)] lg:flex lg:flex-column lg:flex-items-center lg:min-h-[calc(100vh-8rem)]">
       <div className="container mx-auto lg:max-w-6xl px-8 md:px-12 py-24 md:pt-30">
         <h1 className="text-2xl md:text-3xl font-semi-bold mb-4 md:mb-6 lg:mb-8">My Skills</h1>
-        <p className="md:text-xl mb-14 md:mb-20 lg:mb-25">I specialize in Frontend development, but I'm also capable in Backend and DevOps.</p>
+        <p className="md:text-xl mb-6 md:mb-20 lg:mb-25">I specialize in Frontend development, but I'm also capable in Backend and DevOps.</p>
         <div>
           <div className="flex flex-wrap gap-2 md:gap-4 justify-center md:justify-start md:pb-30">
             {skills.frontend.map((skill, index) => {
-              return <span key={index} className="bg-retro-blue-light text-retro-blue px-4 md:px-6 py-2 md:py-4 md:text-lg lg:text-xl rounded-md font-semibold">{skill}</span>;
+              return <span key={index} className="bg-brand-navy-light text-brand-navy-dark px-4 md:px-6 py-2 md:py-4 md:text-lg lg:text-xl rounded-md font-semibold">{skill}</span>;
             })}
             {skills.backend.map((skill, index) => (
-              <span key={index} className="bg-retro-teal-light text-retro-teal px-4 md:px-6 py-2 md:py-4 md:text-lg lg:text-xl rounded-md font-semibold">{skill}</span>
+              <span key={index} className="bg-brand-blue-light text-brand-blue-dark px-4 md:px-6 py-2 md:py-4 md:text-lg lg:text-xl rounded-md font-semibold">{skill}</span>
             ))}
             {skills.other.map((skill, index) => (
-              <span key={index} className="bg-retro-purple-light text-retro-purple px-4 md:px-6 py-2 md:py-4 md:text-lg lg:text-xl rounded-md font-semibold">{skill}</span>
+              <span key={index} className="bg-gray-300 text-gray-500 px-4 md:px-6 py-2 md:py-4 md:text-lg lg:text-xl rounded-md font-semibold">{skill}</span>
             ))}
           </div>
         </div>

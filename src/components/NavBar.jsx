@@ -4,13 +4,13 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-50 h-16 bg-white border-b border-gray-200 shadow">
+    <nav className="sticky top-0 z-50 h-16 bg-brand-white-light border-b border-gray-200 shadow">
       <div className="mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo */}
         <div className="text-xl ">Bradly Lewis</div>
 
         {/* Desktop Menu (visible from md and up) */}
-        <ul className="hidden md:flex space-x-6">
+        <ul className="hidden md:flex space-x-6 tracking-wide">
           <li><a href="#top" className="hover:underline">Home</a></li>
           <li><a href="#skills" className="hover:underline">Skills</a></li>
           <li><a href="#projects" className="hover:underline">Projects</a></li>

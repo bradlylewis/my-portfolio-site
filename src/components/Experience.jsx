@@ -30,15 +30,15 @@ export default function Experience() {
   return (
     <section id="experience" className="min-h-[calc(100vh-6rem)] bg-retro-offwhite flex">
       <div className="container mx-auto py-24 lg:max-w-6xl md:pt-30">
-        <h1 className="text-2xl px-8 md:text-3xl font-semi-bold mb-7 md:mb-12">Work History</h1>
-        <ul className="border-l-4 border-retro-teal px-4 md:pr-8 ml-8 space-y-10 md:space-y-12">
+        <h1 className="text-2xl px-8 md:text-3xl mb-7 md:mb-12">Work History</h1>
+        <ul className="border-l-4 border-brand-blue-dark px-4 md:pr-8 ml-8 space-y-10 md:space-y-12">
           {employementHistory.map((job, index) => (
             <li key={index} className="flex flex-col md:flex-row md:justify-between">
               <div>
-                <div className="text-retro-teal font-bold text-lg">{job.title}</div>
-                <div className="text-retro-purple font-semibold">{job.company}</div>
+                <div className="text-black font-bold text-lg">{job.title}</div>
+                <div className="text-gray-700 font-semibold">{job.company}</div>
               </div>
-              <div className="text-retro-blue font-semibold text-sm md:text-right min-w-[150px]">{job.date}</div>
+              <div className="text-brand-blue font-semibold text-sm md:text-right min-w-[150px]">{job.date}</div>
             </li>
           ))}
         </ul>

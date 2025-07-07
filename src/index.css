@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 @import "tailwindcss";
 
 @layer base {
@@ -9,61 +10,32 @@
   input,
   textarea,
   select {
-    @apply p-2 text-sm rounded border border-gray-300 focus:outline-none focus:ring-1 focus:ring-retro-blue;
+    @apply p-2 text-sm rounded border border-gray-300 focus:outline-none focus:ring-1 focus:ring-brand-blue;
   }
 }
 
 @theme {
-  --color-retro-coral: #ff6f61;
-  --color-retro-coral-light: #ffb3a1;
-  --color-retro-coral-dark: #c7432b;
+  --color-brand-yellow: #FFE74C;
+  --color-brand-yellow-light: #FFF9C4;
+  --color-brand-yellow-dark: #C9B94B;
 
-  --color-retro-yellow: #ffcc00;
-  --color-retro-yellow-light: #fff066;
-  --color-retro-yellow-dark: #b89c00;
+  --color-brand-red: #FF5964;
+  --color-brand-red-light: #FF8A99;
+  --color-brand-red-dark: #C92B3B;
 
-  --color-retro-teal: #2ec4b6;
-  --color-retro-teal-light: #7ff6e9;
-  --color-retro-teal-dark: #159488;
+  --color-brand-white: #F7F7F8;
+  --color-brand-white-light: #FFFFFF;
+  --color-brand-white-dark: #E0E0E0;
 
-  --color-retro-blue: #3a86ff;
-  --color-retro-blue-light: #8ecaff;
-  --color-retro-blue-dark: #0051a3;
+  --color-brand-navy: #38618C;
+  --color-brand-navy-light: #5C7BA7;
+  --color-brand-navy-dark: #22314A;
 
-  --color-retro-offwhite: #f7fff7;
-  --color-retro-offwhite-light: #ffffff;
-  --color-retro-offwhite-dark: #e2eae2;
-
-  --color-retro-navy: #22223b;
-  --color-retro-navy-light: #4a4a6a;
-  --color-retro-navy-dark: #11111d;
-
-  --color-retro-purple: #a259f7;
-  --color-retro-purple-light: #d1a8fc;
-  --color-retro-purple-dark: #6d1fa3;
-
-  --color-brand-gold: #F9DB6D;
-  --color-brand-gold-light: #FFF3C4;
-  --color-brand-gold-dark: #C9A94B;
-
-  --color-brand-blue: #009FFD;
-  --color-brand-blue-light: #6EC6FF;
-  --color-brand-blue-dark: #006FAD;
-
-  --color-brand-indigo: #2A2A72;
-  --color-brand-indigo-light: #6D6DAA;
-  --color-brand-indigo-dark: #18184A;
-
-  --color-brand-charcoal: #232528;
-  --color-brand-charcoal-light: #484B50;
-  --color-brand-charcoal-dark: #101113;
-
-  --color-brand-ice: #EAF6FF;
-  --color-brand-ice-light: #FFFFFF;
-  --color-brand-ice-dark: #B6D6F2;
+  --color-brand-blue: #35A7FF;
+  --color-brand-blue-light: #8ED6FF;
+  --color-brand-blue-dark: #2176AE;
 }
 
 html {
   scroll-behavior: smooth !important;
-  font-family: "ABCDiatype";
 }

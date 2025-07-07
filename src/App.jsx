@@ -7,7 +7,7 @@ import NavBar from "./components/NavBar";
 
 function App() {
   return (
-    <div className="bg-brand-ice">
+    <div className="bg-brand-white font-sans text-gray-800 antialiased">
       <div id="top" />
       <NavBar />
       <Hero />
