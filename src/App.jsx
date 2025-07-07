@@ -7,7 +7,7 @@ import NavBar from "./components/NavBar";
 
 function App() {
   return (
-    <>
+    <div className="bg-brand-ice">
       <div id="top" />
       <NavBar />
       <Hero />
@@ -29,7 +29,7 @@ function App() {
           </li>
         </ul>
       </footer>
-    </>
+    </div>
   );
 }
 

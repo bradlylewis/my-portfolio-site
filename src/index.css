@@ -41,9 +41,29 @@
   --color-retro-purple: #a259f7;
   --color-retro-purple-light: #d1a8fc;
   --color-retro-purple-dark: #6d1fa3;
+
+  --color-brand-gold: #F9DB6D;
+  --color-brand-gold-light: #FFF3C4;
+  --color-brand-gold-dark: #C9A94B;
+
+  --color-brand-blue: #009FFD;
+  --color-brand-blue-light: #6EC6FF;
+  --color-brand-blue-dark: #006FAD;
+
+  --color-brand-indigo: #2A2A72;
+  --color-brand-indigo-light: #6D6DAA;
+  --color-brand-indigo-dark: #18184A;
+
+  --color-brand-charcoal: #232528;
+  --color-brand-charcoal-light: #484B50;
+  --color-brand-charcoal-dark: #101113;
+
+  --color-brand-ice: #EAF6FF;
+  --color-brand-ice-light: #FFFFFF;
+  --color-brand-ice-dark: #B6D6F2;
 }
 
 html {
   scroll-behavior: smooth !important;
+  font-family: "ABCDiatype";
 }
-

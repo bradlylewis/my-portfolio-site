@@ -1,6 +1,6 @@
 # My Portfolio Site
 
-A modern, retro-inspired portfolio site built with React, Vite, and Tailwind CSS.
+A modern portfolio site built with React, Vite, and Tailwind CSS.
 
 ## ✨ Features
 
@@ -11,17 +11,15 @@ A modern, retro-inspired portfolio site built with React, Vite, and Tailwind CSS
 
 ## 🎨 Theme
 
-This site uses a **Retro 80s** color palette:
+This site uses a **custom brand color palette**:
 
-| Name         | Hex        | Example Use         | Preview |
-|--------------|------------|---------------------|:-------:|
-| Coral Red    | `#ff6f61`  | Buttons, accents    | <span style="display:inline-block;margin:auto;width:18px;height:18px;background:#ff6f61;border-radius:4px;border:1px solid #ccc;"></span> |
-| Yellow       | `#ffcc00`  | Highlights, links   | <span style="display:inline-block;margin:auto;width:18px;height:18px;background:#ffcc00;border-radius:4px;border:1px solid #ccc;"></span> |
-| Teal         | `#2ec4b6`  | Backgrounds, badges | <span style="display:inline-block;margin:auto;width:18px;height:18px;background:#2ec4b6;border-radius:4px;border:1px solid #ccc;"></span> |
-| Blue         | `#3a86ff`  | Links, hover states | <span style="display:inline-block;margin:auto;width:18px;height:18px;background:#3a86ff;border-radius:4px;border:1px solid #ccc;"></span> |
-| Purple   | `#a259f7`  | Accents, highlights | <span style="display:inline-block;margin:auto;width:18px;height:18px;background:#a259f7;border-radius:4px;border:1px solid #ccc;"></span> |
-| Off-white    | `#f7fff7`  | Backgrounds, text   | <span style="display:inline-block;margin:auto;width:18px;height:18px;background:#f7fff7;border-radius:4px;border:1px solid #ccc;"></span> |
-| Dark Navy    | `#22223b`  | Footer, headings    | <span style="display:inline-block;margin:auto;width:18px;height:18px;background:#22223b;border-radius:4px;border:1px solid #ccc;"></span> |
+| Name      | Hex        | Example Use         | Preview |
+|-----------|------------|---------------------|:-------:|
+| Gold      | `#F9DB6D`  | Highlights, accents | <span style="display:inline-block;margin:auto;width:18px;height:18px;background:#F9DB6D;border-radius:4px;border:1px solid #ccc;"></span> |
+| Blue      | `#009FFD`  | Buttons, links      | <span style="display:inline-block;margin:auto;width:18px;height:18px;background:#009FFD;border-radius:4px;border:1px solid #ccc;"></span> |
+| Indigo    | `#2A2A72`  | Headings, nav       | <span style="display:inline-block;margin:auto;width:18px;height:18px;background:#2A2A72;border-radius:4px;border:1px solid #ccc;"></span> |
+| Charcoal  | `#232528`  | Footer, backgrounds | <span style="display:inline-block;margin:auto;width:18px;height:18px;background:#232528;border-radius:4px;border:1px solid #ccc;"></span> |
+| Ice       | `#EAF6FF`  | Backgrounds, cards  | <span style="display:inline-block;margin:auto;width:18px;height:18px;background:#EAF6FF;border-radius:4px;border:1px solid #ccc;"></span> |
 
 You can use these colors in Tailwind with arbitrary values, e.g. `bg-[#ff6f61]`.
 
