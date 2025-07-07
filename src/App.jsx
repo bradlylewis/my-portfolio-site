@@ -5,9 +5,12 @@ import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import NavBar from "./components/NavBar";
 
+import { Toaster } from "react-hot-toast";
+
 function App() {
   return (
     <div className="bg-brand-white font-sans text-gray-800 antialiased">
+      <Toaster position="top-center" />
       <div id="top" />
       <NavBar />
       <Hero />
