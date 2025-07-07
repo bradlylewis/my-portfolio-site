@@ -2,7 +2,7 @@
   "name": "my-portfolio-site",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://bradly.github.io/my-portfolio-site",
+  "homepage": "https://www.bradlylewis.net",
   "type": "module",
   "scripts": {
     "dev": "vite",
