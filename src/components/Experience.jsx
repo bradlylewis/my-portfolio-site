@@ -35,8 +35,8 @@ export default function Experience() {
           {employementHistory.map((job, index) => (
             <li key={index} className="flex flex-col md:flex-row md:justify-between">
               <div>
-                <div className="text-black font-bold text-lg">{job.title}</div>
-                <div className="text-gray-700 font-semibold">{job.company}</div>
+                <div className="text-black dark:text-brand-white-dark font-bold text-lg">{job.title}</div>
+                <div className="text-gray-700 dark:text-gray-300 font-semibold">{job.company}</div>
               </div>
               <div className="text-brand-blue font-semibold text-sm md:text-right min-w-[150px]">{job.date}</div>
             </li>

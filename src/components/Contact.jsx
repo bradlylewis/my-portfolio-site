@@ -25,9 +25,9 @@ export default function Contact() {
     <section id="contact" className="min-h-[calc(100vh-1rem)]">
       <div className="container flex flex-col py-24 mx-auto lg:max-w-6xl px-8 md:px-12 py-24 md:pt-30">
         <h1 className="text-2xl md:text-3xl font-semi-bold mb-7 md:mb-4">Contact Me</h1>
-        <p className="hidden md:block text-gray-600 md:mb-12">Feel free to reach out and I'll get back to you as soon as possible.</p>
+        <p className="hidden md:block text-gray-600 dark:text-gray-300 md:mb-12">Feel free to reach out and I'll get back to you as soon as possible.</p>
         <div>
-          <form ref={formRef} onSubmit={handleSubmit} className="w-full space-y-4 md:space-y-8 bg-white p-8 rounded-md shadow-sm">
+          <form ref={formRef} onSubmit={handleSubmit} className="w-full space-y-4 md:space-y-8 bg-white dark:bg-gray-800 p-8 rounded-md shadow-sm dark:shadow-gray-700">
             <div className="flex flex-col">
               <label className="text-xs md:text-base tracking-wide mb-1" for="name">
                 NAME

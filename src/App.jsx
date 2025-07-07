@@ -9,7 +9,7 @@ import { Toaster } from "react-hot-toast";
 
 function App() {
   return (
-    <div className="bg-brand-white font-sans text-gray-800 antialiased">
+    <div className="bg-brand-white dark:bg-gray-900 font-sans text-gray-800 dark:text-brand-white-dark antialiased">
       <Toaster position="top-center" />
       <div id="top" />
       <NavBar />
@@ -18,7 +18,7 @@ function App() {
       <Projects />
       <Experience />
       <Contact />
-      <footer className=" bg-brand-navy py-6 text-sm text-brand-white-light">
+      <footer className=" bg-brand-navy dark:bg-gray-800 py-6 text-sm text-brand-white-light">
         <ul className="grid grid-cols-2 max-w-xl mx-auto">
           <li className="text-center">
             <a href="https://linkedin.com/in/bradly-lewis" target="_blank" rel="noopener noreferrer" className="underline hover:text-brand-white-dark">

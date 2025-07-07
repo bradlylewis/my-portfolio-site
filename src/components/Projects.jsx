@@ -40,7 +40,7 @@ export default function Projects() {
       <div className="container mx-auto flex-1 lg:max-w-6xl px-8 md:px-12 ">
         <div>
           <h2 className="text-2xl md:text-3xl font-semi-bold mb-4">Featured Projects</h2>
-          <p className="text-gray-600 mb-8">A few highlights that show how I approach design, code, and real-world problems.</p>
+          <p className="text-gray-600 dark:text-gray-300 mb-8">A few highlights that show how I approach design, code, and real-world problems.</p>
         </div>
         <div className="grid gap-10 lg:gap-30 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
           {projects.map((project, index) => (

@@ -31,23 +31,23 @@ export default function Skills() {
         <div>
           <div className="flex flex-wrap gap-2 md:gap-4 justify-center md:justify-start md:pb-30">
             {skills.frontend.map((skill, index) => {
-              return <span key={index} className="bg-brand-navy-light text-brand-navy-dark px-4 md:px-6 py-2 md:py-4 md:text-lg lg:text-xl rounded-md font-semibold">{skill}</span>;
+              return <span key={index} className="bg-brand-navy-light dark:bg-brand-red-dark text-brand-white dark:text-brand-white-dark px-4 md:px-6 py-2 md:py-4 md:text-lg lg:text-xl rounded-md font-semibold">{skill}</span>;
             })}
             {skills.backend.map((skill, index) => (
-              <span key={index} className="bg-brand-blue-light text-brand-blue-dark px-4 md:px-6 py-2 md:py-4 md:text-lg lg:text-xl rounded-md font-semibold">{skill}</span>
+              <span key={index} className="bg-brand-blue-light dark:bg-brand-blue-dark text-brand-blue-dark dark:text-brand-white-dark px-4 md:px-6 py-2 md:py-4 md:text-lg lg:text-xl rounded-md font-semibold">{skill}</span>
             ))}
             {skills.other.map((skill, index) => (
-              <span key={index} className="bg-gray-300 text-gray-500 px-4 md:px-6 py-2 md:py-4 md:text-lg lg:text-xl rounded-md font-semibold">{skill}</span>
+              <span key={index} className="bg-gray-300 dark:bg-gray-700 text-gray-500 dark:text-gray-300 px-4 md:px-6 py-2 md:py-4 md:text-lg lg:text-xl rounded-md font-semibold">{skill}</span>
             ))}
           </div>
         </div>
       </div>
     </section>
-      <div className="bg-[rgba(240,240,240,1)] p-6 lg:py-16 lg:mb-30">
+      <div className="bg-[rgba(240,240,240,1)] dark:bg-gray-800 p-6 lg:py-16 lg:mb-30">
         <ul className="grid grid-cols-3 md:grid-cols-9 gap-6 lg:flex lg:justify-evenly">
           {icons.map((icon, index) => (
-            <li key={index} className="bg-white text-center text-4xl md:text-5xl lg:text-6xl shadow-lg rounded-md p-3 lg:p-7">
-              <i className={`${icon} text-[#999]`}></i>
+            <li key={index} className="bg-white dark:bg-gray-700 text-center text-4xl md:text-5xl lg:text-6xl shadow-lg rounded-md p-3 lg:p-7">
+              <i className={`${icon} text-[#999] dark:text-brand-white-dark`}></i>
             </li>
           ))}
         </ul>
