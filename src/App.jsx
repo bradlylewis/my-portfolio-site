@@ -26,7 +26,7 @@ function App() {
             </a>
           </li>
           <li className="text-center">
-            <a href="/my-portfolio-site/BRADLY_LEWIS_RESUME.pdf" download className="underline hover:text-brand-white-dark">
+            <a href="/BRADLY_LEWIS_RESUME.pdf" download className="underline hover:text-brand-white-dark">
               Download Resume
             </a>
           </li>
