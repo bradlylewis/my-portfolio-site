@@ -11,8 +11,6 @@ A modern portfolio site built with React, Vite, and Tailwind CSS.
 
 ## 🎨 Theme
 
-This site uses a **custom brand color palette**:
-
 | Name      | Hex        | Example Use         | Preview |
 |-----------|------------|---------------------|:-------:|
 | Yellow    | `#FFE74C`  | Highlights, accents | <span style="display:inline-block;margin:auto;width:18px;height:18px;background:#FFE74C;border-radius:4px;border:1px solid #ccc;"></span> |
