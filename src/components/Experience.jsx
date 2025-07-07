@@ -1,34 +1,46 @@
+const employementHistory = [
+  {
+    title: "Senior Applications Developer",
+    company: "Leon County Schools",
+    date: "May 2025 - Present",
+  },
+  {
+    title: "Senior Full-stack Developer",
+    company: "NTT Data",
+    date: "Jan 2023 - Jan 2025",
+  },
+  {
+    title: "Frontend Developer",
+    company: "Nexient",
+    date: "Jan 2022 - Jan 2023",
+  },
+  {
+    title: "Systems Developer",
+    company: "State of Florida, DMS",
+    date: "Dec 2019 - Jan 2022",
+  },
+  {
+    title: "Senior Network Technician",
+    company: "Comcast",
+    date: "June 2015 - Dec 2019",
+  },
+]
+
 export default function Experience() {
   return (
     <section id="experience" className="min-h-[calc(100vh-6rem)] bg-retro-offwhite flex">
-      <div className="container mx-auto py-24 lg:max-w-6xl">
-        <h1 className="text-2xl px-8 md:text-4xl font-semi-bold mb-4 md:mb-6 lg:mb-8">Work History</h1>
-        <ul className="border-l-4 border-retro-teal pl-8 space-y-10">
-          <li>
-            <div className="text-retro-teal font-bold text-lg">Senior Applications Developer</div>
-            <div className="text-retro-purple font-semibold">Leon County Schools</div>
-            <div className="text-retro-blue text-sm">May 2025 – Present</div>
-          </li>
-          <li>
-            <div className="text-retro-teal font-bold text-lg">Senior Full-stack Developer</div>
-            <div className="text-retro-purple font-semibold">NTT Data</div>
-            <div className="text-retro-blue text-sm">Jan 2023 – Jan 2025</div>
-          </li>
-          <li>
-            <div className="text-retro-teal font-bold text-lg">Frontend Developer</div>
-            <div className="text-retro-purple font-semibold">Nexient</div>
-            <div className="text-retro-blue text-sm">Jan 2022 – Jan 2023</div>
-          </li>
-          <li>
-            <div className="text-retro-teal font-bold text-lg">Systems Developer</div>
-            <div className="text-retro-purple font-semibold">State of Florida, DMS</div>
-            <div className="text-retro-blue text-sm">Dec 2019 – Jan 2022</div>
-          </li>
-          <li>
-            <div className="text-retro-teal font-bold text-lg">Senior Network Technician</div>
-            <div className="text-retro-purple font-semibold">Comcast</div>
-            <div className="text-retro-blue text-sm">June 2015 – Dec 2019</div>
-          </li>
+      <div className="container mx-auto py-24 lg:max-w-6xl md:pt-30">
+        <h1 className="text-2xl px-8 md:text-3xl font-semi-bold mb-7 md:mb-12">Work History</h1>
+        <ul className="border-l-4 border-retro-teal px-4 md:pr-8 ml-8 space-y-10 md:space-y-12">
+          {employementHistory.map((job, index) => (
+            <li key={index} className="flex flex-col md:flex-row md:justify-between">
+              <div>
+                <div className="text-retro-teal font-bold text-lg">{job.title}</div>
+                <div className="text-retro-purple font-semibold">{job.company}</div>
+              </div>
+              <div className="text-retro-blue font-semibold text-sm md:text-right min-w-[150px]">{job.date}</div>
+            </li>
+          ))}
         </ul>
       </div>
     </section>

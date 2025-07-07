@@ -5,6 +5,12 @@
   a[href] {
     @apply cursor-pointer;
   }
+
+  input,
+  textarea,
+  select {
+    @apply p-2 text-sm rounded border border-gray-300 focus:outline-none focus:ring-1 focus:ring-retro-blue;
+  }
 }
 
 @theme {
@@ -40,3 +46,4 @@
 html {
   scroll-behavior: smooth !important;
 }
+

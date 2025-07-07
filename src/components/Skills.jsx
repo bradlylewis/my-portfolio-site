@@ -26,18 +26,18 @@ export default function Skills() {
     <>
     <section id="skills" className="min-h-[calc(100vh-6rem)] md:min-h-[calc(100vh-16rem)] lg:flex lg:flex-column lg:flex-items-center lg:min-h-[calc(100vh-8rem)] bg-retro-offwhite">
       <div className="container mx-auto lg:max-w-6xl px-8 md:px-12 py-24 md:pt-30">
-        <h1 className="text-2xl md:text-4xl font-semi-bold mb-4 md:mb-6 lg:mb-8">My Skills</h1>
+        <h1 className="text-2xl md:text-3xl font-semi-bold mb-4 md:mb-6 lg:mb-8">My Skills</h1>
         <p className="md:text-xl mb-14 md:mb-20 lg:mb-25">I specialize in Frontend development, but I'm also capable in Backend and DevOps.</p>
         <div>
           <div className="flex flex-wrap gap-2 md:gap-4 justify-center md:justify-start md:pb-30">
-            {skills.frontend.map((skill) => {
-              return <span className="bg-retro-blue-light text-retro-blue px-4 md:px-6 py-2 md:py-4 md:text-lg lg:text-xl rounded-md font-semibold">{skill}</span>;
+            {skills.frontend.map((skill, index) => {
+              return <span key={index} className="bg-retro-blue-light text-retro-blue px-4 md:px-6 py-2 md:py-4 md:text-lg lg:text-xl rounded-md font-semibold">{skill}</span>;
             })}
-            {skills.backend.map((skill) => (
-              <span className="bg-retro-teal-light text-retro-teal px-4 md:px-6 py-2 md:py-4 md:text-lg lg:text-xl rounded-md font-semibold">{skill}</span>
+            {skills.backend.map((skill, index) => (
+              <span key={index} className="bg-retro-teal-light text-retro-teal px-4 md:px-6 py-2 md:py-4 md:text-lg lg:text-xl rounded-md font-semibold">{skill}</span>
             ))}
-            {skills.backend.map((skill) => (
-              <span className="bg-retro-purple-light text-retro-purple px-4 md:px-6 py-2 md:py-4 md:text-lg lg:text-xl rounded-md font-semibold">{skill}</span>
+            {skills.other.map((skill, index) => (
+              <span key={index} className="bg-retro-purple-light text-retro-purple px-4 md:px-6 py-2 md:py-4 md:text-lg lg:text-xl rounded-md font-semibold">{skill}</span>
             ))}
           </div>
         </div>
@@ -45,8 +45,8 @@ export default function Skills() {
     </section>
       <div className="bg-[rgba(240,240,240,1)] p-6 lg:py-16 lg:mb-30">
         <ul className="grid grid-cols-3 md:grid-cols-9 gap-6 lg:flex lg:justify-evenly">
-          {icons.map(icon => (
-            <li className="bg-white text-center text-4xl md:text-5xl lg:text-6xl shadow-lg rounded-md p-3 lg:p-7">
+          {icons.map((icon, index) => (
+            <li key={index} className="bg-white text-center text-4xl md:text-5xl lg:text-6xl shadow-lg rounded-md p-3 lg:p-7">
               <i className={`${icon} text-[#999]`}></i>
             </li>
           ))}

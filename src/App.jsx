@@ -15,7 +15,7 @@ function App() {
       <Projects />
       <Experience />
       <Contact />
-      <footer className=" bg-teal-500 mt-20 py-6 text-sm text-gray-700">
+      <footer className=" bg-teal-500 py-6 text-sm text-gray-700">
         <ul className="grid grid-cols-2 max-w-xl mx-auto">
           <li className="text-center">
             <a href="https://linkedin.com/in/bradly-lewis" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-900">
