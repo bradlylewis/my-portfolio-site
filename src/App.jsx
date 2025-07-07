@@ -15,15 +15,15 @@ function App() {
       <Projects />
       <Experience />
       <Contact />
-      <footer className=" bg-teal-500 py-6 text-sm text-gray-700">
+      <footer className=" bg-brand-navy py-6 text-sm text-brand-white-light">
         <ul className="grid grid-cols-2 max-w-xl mx-auto">
           <li className="text-center">
-            <a href="https://linkedin.com/in/bradly-lewis" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-900">
+            <a href="https://linkedin.com/in/bradly-lewis" target="_blank" rel="noopener noreferrer" className="underline hover:text-brand-white-dark">
               LinkedIn
             </a>
           </li>
           <li className="text-center">
-            <a href="/my-portfolio-site/BRADLY_LEWIS_RESUME.pdf" download className="underline hover:text-gray-900">
+            <a href="/my-portfolio-site/BRADLY_LEWIS_RESUME.pdf" download className="underline hover:text-brand-white-dark">
               Download Resume
             </a>
           </li>

@@ -41,12 +41,12 @@ export default function Navbar() {
 
       {/* Mobile Dropdown (only visible on small screens) */}
       {menuOpen && (
-        <ul className="md:hidden px-4 pb-4 space-y-2 bg-white shadow">
-          <li><a href="#top" onClick={() => setMenuOpen(false)}>Home</a></li>
-          <li><a href="#skills" onClick={() => setMenuOpen(false)}>Skills</a></li>
-          <li><a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a></li>
-          <li><a href="#experience" onClick={() => setMenuOpen(false)}>Experience</a></li>
-          <li><a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a></li>
+        <ul className="md:hidden min-h-[calc(100vh-4rem)] text- px-4 pb-4 bg-white flex flex-col text-center justify-center shadow">
+          <li><a href="#top" onClick={() => setMenuOpen(false)} className="block w-full py-6">Home</a></li>
+          <li><a href="#skills" onClick={() => setMenuOpen(false)} className="block w-full py-6">Skills</a></li>
+          <li><a href="#projects" onClick={() => setMenuOpen(false)} className="block w-full py-6">Projects</a></li>
+          <li><a href="#experience" onClick={() => setMenuOpen(false)} className="block w-full py-6">Experience</a></li>
+          <li><a href="#contact" onClick={() => setMenuOpen(false)} className="block w-full py-6">Contact</a></li>
         </ul>
       )}
     </nav>
