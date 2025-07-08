@@ -24,7 +24,7 @@ const icons = ["devicon-html5-plain", "devicon-css3-plain", "devicon-javascript-
 export default function Skills() {
   return (
     <>
-    <section id="skills" className="min-h-[calc(100vh-6rem)] md:min-h-[calc(100vh-16rem)] lg:flex lg:flex-column lg:flex-items-center lg:min-h-[calc(100vh-8rem)]">
+    <section id="skills" className="bg-brand-white-light dark:bg-gray-800 min-h-[calc(100vh-6rem)] md:min-h-[calc(100vh-16rem)] lg:flex lg:flex-column lg:flex-items-center lg:min-h-[calc(100vh-8rem)]">
       <div className="container mx-auto lg:max-w-6xl px-8 md:px-12 py-24 md:pt-30">
         <h1 className="text-2xl md:text-3xl font-semi-bold mb-4 md:mb-6 lg:mb-8">My Skills</h1>
         <p className="md:text-xl mb-6 md:mb-20 lg:mb-25">I specialize in Frontend development, but I'm also capable in Backend and DevOps.</p>

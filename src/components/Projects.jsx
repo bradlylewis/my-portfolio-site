@@ -36,7 +36,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="min-h-screen bg-retro-offwhite pt-[5rem] md:pt-30 flex flex-col">
+    <section id="projects" className="min-h-screen pt-[5rem] md:pt-30 flex flex-col">
       <div className="container mx-auto flex-1 lg:max-w-6xl px-8 md:px-12 ">
         <div>
           <h2 className="text-2xl md:text-3xl font-semi-bold mb-4">Featured Projects</h2>
