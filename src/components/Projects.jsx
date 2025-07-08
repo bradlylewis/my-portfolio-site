@@ -30,7 +30,7 @@ const projects = [
     image: tripPlannerTile,
     description:
       "Vue  + Supabase group trip planner with realtime voting, drag-and-drop itineraries, Google Maps integration, and optional AI-powered trip suggestions—built for collaborative travel planning.",
-    link: "https://github.com/bradlylewis/trip-planner"
+    link: "https://github.com/bradlylewis/trip-planner",
   },
 ];
 
@@ -45,13 +45,18 @@ export default function Projects() {
         <div className="grid gap-10 lg:gap-30 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
           {projects.map((project, index) => (
             <div key={index}>
-              <h4 className="font-semibold text-brand-blue">
-                <a className="hover:text-brand-blue-dark" href={project.link} target="_blank">
-                  {project.title}
-                </a>
-              </h4>
+              <h4 className="font-semibold">{project.title}</h4>
               <div className="aspect-[16/9] bg-neutral-50 border rounded w-full mb-2">
                 <img src={project.image} />
+              </div>
+              <div className="flex gap-2 tracking-wider">
+                <a className="text-brand-blue hover:text-brand-blue-dark" href={project.link} target="_blank">
+                  Project
+                </a>
+                <span className="px-2 text-gray-400">|</span>
+                <a className="text-brand-blue hover:text-brand-blue-dark" href={project.link} target="_blank">
+                  Live Preview
+                </a>
               </div>
               <p>{project.description}</p>
             </div>
