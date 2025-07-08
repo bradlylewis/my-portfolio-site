@@ -31,13 +31,13 @@ export default function Skills() {
         <div>
           <div className="flex flex-wrap gap-2 md:gap-4 justify-center md:justify-start md:pb-30">
             {skills.frontend.map((skill, index) => {
-              return <span key={index} className="bg-brand-navy-light dark:bg-brand-red-dark text-brand-white dark:text-brand-white-dark px-4 md:px-6 py-2 md:py-4 md:text-lg lg:text-xl rounded-md font-semibold">{skill}</span>;
+              return <span key={index} className="bg-sky-500 text-white dark:bg-brand-red-dark px-4 md:px-6 py-2 md:py-4 md:text-lg lg:text-xl rounded-md font-semibold">{skill}</span>;
             })}
             {skills.backend.map((skill, index) => (
-              <span key={index} className="bg-brand-blue-light dark:bg-brand-blue-dark text-brand-blue-dark dark:text-brand-white-dark px-4 md:px-6 py-2 md:py-4 md:text-lg lg:text-xl rounded-md font-semibold">{skill}</span>
+              <span key={index} className="bg-rose-500 text-white dark:bg-brand-blue-dark px-4 md:px-6 py-2 md:py-4 md:text-lg lg:text-xl rounded-md font-semibold">{skill}</span>
             ))}
             {skills.other.map((skill, index) => (
-              <span key={index} className="bg-gray-300 dark:bg-gray-700 text-gray-500 dark:text-gray-300 px-4 md:px-6 py-2 md:py-4 md:text-lg lg:text-xl rounded-md font-semibold">{skill}</span>
+              <span key={index} className="bg-violet-500 text-white dark:bg-gray-700 px-4 md:px-6 py-2 md:py-4 md:text-lg lg:text-xl rounded-md font-semibold">{skill}</span>
             ))}
           </div>
         </div>
