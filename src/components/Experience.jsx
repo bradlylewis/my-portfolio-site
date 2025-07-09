@@ -28,7 +28,7 @@ const employementHistory = [
 
 export default function Experience() {
   return (
-    <section id="experience" className="min-h-[calc(100vh-6rem)] bg-brand-white-light dark:bg-gray-800 flex">
+    <section id="experience" className="min-h-[calc(100vh-6rem)] bg-brand-white-light dark:bg-gray-800 flex dark:bg-gradient-to-r dark:from-[rgba(30,41,57,0.99)] dark:to-gray-800">
       <div className="container mx-auto py-24 lg:max-w-6xl md:pt-30">
         <h1 className="text-2xl px-8 md:text-3xl mb-7 md:mb-12">Work History</h1>
         <ul className="border-l-4 border-brand-blue-dark px-4 md:pr-8 ml-8 space-y-10 md:space-y-12">

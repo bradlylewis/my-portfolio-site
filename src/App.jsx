@@ -9,7 +9,7 @@ import { Toaster } from "react-hot-toast";
 
 function App() {
   return (
-    <div className="bg-brand-white dark:bg-gray-900 font-sans text-gray-800 dark:text-brand-white-dark antialiased">
+    <div className="bg-gradient-to-r from-[rgba(247,247,248,0.5)] to-[var(--color-brand-white)] font-sans text-gray-800 antialiased dark:text-brand-white dark:from-[rgba(16,24,40,0.97)] dark:to-gray-900">
       <Toaster position="top-center" />
       <div id="top" />
       <NavBar />
